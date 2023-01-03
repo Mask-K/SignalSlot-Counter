@@ -20,6 +20,6 @@ void Counter::Increase()
 }
 
 void Counter::Decrease(){
-    std::cout << "Slot Increase() was called for counter" << id << std::endl;
+    std::cout << "Slot Decrease() was called for counter" << id << std::endl;
     --m_count;
 }
